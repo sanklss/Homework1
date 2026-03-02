@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Logger.WriteLog("ddddd");
+            Application application = new Application();
+            application.Run();
         }
     }
 }
