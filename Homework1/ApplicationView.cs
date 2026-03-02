@@ -37,5 +37,11 @@
         {
             return Console.ReadLine();
         }
+
+        public string NewMethod()
+        {
+            string message = Console.ReadLine();
+            return message;
+        }
     }
 }
