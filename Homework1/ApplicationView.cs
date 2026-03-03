@@ -38,9 +38,10 @@
             return Console.ReadLine();
         }
 
-        public string NewMethod()
+        public string GetMessage()
         {
             string message = Console.ReadLine();
+
             return message;
         }
     }

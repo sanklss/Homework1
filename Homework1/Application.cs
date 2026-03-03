@@ -26,7 +26,7 @@
 
                 if (userInput == _writeLogCommand)
                 {
-                    string message = _applicationView.NewMethod();
+                    string message = _applicationView.GetMessage();
                     Logger.WriteLog(message);
                 }
                 else if (userInput == _exitCommand)
